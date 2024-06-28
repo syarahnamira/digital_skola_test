@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
-import styles from './VideoPlayer.module.css';
 
 const VideoPlayer = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -16,7 +15,7 @@ const VideoPlayer = () => {
   }
 
   return (
-    <div className={styles.videoPlayer}>
+    <div>
       <ReactPlayer
         height={"100%"}
         width={"100%"}
